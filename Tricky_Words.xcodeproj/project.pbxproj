@@ -14,13 +14,16 @@
 		4861F4F4182ECAC900C4E9F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F4F3182ECAC900C4E9F2 /* main.m */; };
 		4861F4F8182ECAC900C4E9F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F4F7182ECAC900C4E9F2 /* AppDelegate.m */; };
 		4861F4FB182ECAC900C4E9F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4861F4F9182ECAC900C4E9F2 /* Main.storyboard */; };
-		4861F4FE182ECAC900C4E9F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F4FD182ECAC900C4E9F2 /* ViewController.m */; };
+		4861F4FE182ECAC900C4E9F2 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F4FD182ECAC900C4E9F2 /* MainMenuViewController.m */; };
 		4861F500182ECAC900C4E9F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4861F4FF182ECAC900C4E9F2 /* Images.xcassets */; };
 		4861F507182ECAC900C4E9F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4861F506182ECAC900C4E9F2 /* XCTest.framework */; };
 		4861F508182ECAC900C4E9F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4861F4E7182ECAC900C4E9F2 /* Foundation.framework */; };
 		4861F509182ECAC900C4E9F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4861F4EB182ECAC900C4E9F2 /* UIKit.framework */; };
 		4861F511182ECAC900C4E9F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4861F50F182ECAC900C4E9F2 /* InfoPlist.strings */; };
 		4861F513182ECAC900C4E9F2 /* Tricky_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F512182ECAC900C4E9F2 /* Tricky_WordsTests.m */; };
+		4861F51E182ECD6D00C4E9F2 /* SLGameSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F51D182ECD6D00C4E9F2 /* SLGameSelectorViewController.m */; };
+		4861F521182ECE3400C4E9F2 /* SLGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F520182ECE3400C4E9F2 /* SLGamePlayViewController.m */; };
+		4861F529182EF8E100C4E9F2 /* SingleListSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861F528182EF8E100C4E9F2 /* SingleListSelectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		4861F4F6182ECAC900C4E9F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4861F4F7182ECAC900C4E9F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4861F4FA182ECAC900C4E9F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4861F4FC182ECAC900C4E9F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4861F4FD182ECAC900C4E9F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4861F4FC182ECAC900C4E9F2 /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		4861F4FD182ECAC900C4E9F2 /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		4861F4FF182ECAC900C4E9F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4861F505182ECAC900C4E9F2 /* Tricky_WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tricky_WordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4861F506182ECAC900C4E9F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4861F50E182ECAC900C4E9F2 /* Tricky_WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tricky_WordsTests-Info.plist"; sourceTree = "<group>"; };
 		4861F510182ECAC900C4E9F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4861F512182ECAC900C4E9F2 /* Tricky_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tricky_WordsTests.m; sourceTree = "<group>"; };
+		4861F51C182ECD6D00C4E9F2 /* SLGameSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGameSelectorViewController.h; sourceTree = "<group>"; };
+		4861F51D182ECD6D00C4E9F2 /* SLGameSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGameSelectorViewController.m; sourceTree = "<group>"; };
+		4861F51F182ECE3400C4E9F2 /* SLGamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGamePlayViewController.h; sourceTree = "<group>"; };
+		4861F520182ECE3400C4E9F2 /* SLGamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGamePlayViewController.m; sourceTree = "<group>"; };
+		4861F527182EF8E100C4E9F2 /* SingleListSelectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleListSelectionCell.h; sourceTree = "<group>"; };
+		4861F528182EF8E100C4E9F2 /* SingleListSelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleListSelectionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 		4861F4DB182ECAC900C4E9F2 = {
 			isa = PBXGroup;
 			children = (
+				4861F526182EF88C00C4E9F2 /* Classes */,
 				4861F4ED182ECAC900C4E9F2 /* Tricky_Words */,
 				4861F50C182ECAC900C4E9F2 /* Tricky_WordsTests */,
 				4861F4E6182ECAC900C4E9F2 /* Frameworks */,
@@ -115,9 +125,14 @@
 				4861F4F6182ECAC900C4E9F2 /* AppDelegate.h */,
 				4861F4F7182ECAC900C4E9F2 /* AppDelegate.m */,
 				4861F4F9182ECAC900C4E9F2 /* Main.storyboard */,
-				4861F4FC182ECAC900C4E9F2 /* ViewController.h */,
-				4861F4FD182ECAC900C4E9F2 /* ViewController.m */,
+				4861F4FC182ECAC900C4E9F2 /* MainMenuViewController.h */,
+				4861F4FD182ECAC900C4E9F2 /* MainMenuViewController.m */,
+				4861F51C182ECD6D00C4E9F2 /* SLGameSelectorViewController.h */,
+				4861F51D182ECD6D00C4E9F2 /* SLGameSelectorViewController.m */,
+				4861F51F182ECE3400C4E9F2 /* SLGamePlayViewController.h */,
+				4861F520182ECE3400C4E9F2 /* SLGamePlayViewController.m */,
 				4861F4FF182ECAC900C4E9F2 /* Images.xcassets */,
+				4861F522182ECECE00C4E9F2 /* Graphics */,
 				4861F4EE182ECAC900C4E9F2 /* Supporting Files */,
 			);
 			path = Tricky_Words;
@@ -150,6 +165,23 @@
 				4861F50F182ECAC900C4E9F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4861F522182ECECE00C4E9F2 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		4861F526182EF88C00C4E9F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4861F527182EF8E100C4E9F2 /* SingleListSelectionCell.h */,
+				4861F528182EF8E100C4E9F2 /* SingleListSelectionCell.m */,
+			);
+			name = Classes;
+			path = Tricky_Words;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +231,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Kristian Mills";
 				TargetAttributes = {
+					4861F4E3182ECAC900C4E9F2 = {
+						DevelopmentTeam = WNVKA347P2;
+					};
 					4861F504182ECAC900C4E9F2 = {
 						TestTargetID = 4861F4E3182ECAC900C4E9F2;
 					};
@@ -249,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4861F4FE182ECAC900C4E9F2 /* ViewController.m in Sources */,
+				4861F4FE182ECAC900C4E9F2 /* MainMenuViewController.m in Sources */,
+				4861F51E182ECD6D00C4E9F2 /* SLGameSelectorViewController.m in Sources */,
+				4861F521182ECE3400C4E9F2 /* SLGamePlayViewController.m in Sources */,
 				4861F4F8182ECAC900C4E9F2 /* AppDelegate.m in Sources */,
+				4861F529182EF8E100C4E9F2 /* SingleListSelectionCell.m in Sources */,
 				4861F4F4182ECAC900C4E9F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,10 +416,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tricky_Words/Tricky_Words-Prefix.pch";
 				INFOPLIST_FILE = "Tricky_Words/Tricky_Words-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +432,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tricky_Words/Tricky_Words-Prefix.pch";
 				INFOPLIST_FILE = "Tricky_Words/Tricky_Words-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +504,7 @@
 				4861F518182ECAC900C4E9F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4861F519182ECAC900C4E9F2 /* Build configuration list for PBXNativeTarget "Tricky_WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +513,7 @@
 				4861F51B182ECAC900C4E9F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

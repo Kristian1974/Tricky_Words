@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GamePlayViewController.h
 //  Tricky_Words
 //
 //  Created by Kristian on 09/11/2013.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SLGamePlayViewController : UIViewController
 
 @end

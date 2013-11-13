@@ -13,6 +13,42 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    BOOL initiated = [[defaults objectForKey:@"initiated"]boolValue];
+    
+    if (!initiated) {
+    
+    NSArray *challengesArray = [[NSArray alloc] initWithObjects:
+                       @"List 1",
+                       @"List 2",
+                       @"List 3",
+                       @"List 4",
+                       @"List 5",
+                       @"List 6",
+                       @"LIst 7",
+                       nil];
+    
+    NSArray *lockedArray = [[NSArray alloc] initWithObjects:[NSNumber numberWithBool:YES], [NSNumber numberWithBool:YES], [NSNumber numberWithBool:YES], [NSNumber numberWithBool:YES], [NSNumber numberWithBool:YES], [NSNumber numberWithBool:YES],
+        [NSNumber numberWithBool:NO],nil];
+
+    NSMutableArray *mutableChallengesArray = [[NSMutableArray alloc] init];
+    
+    for (int i = 0; i <challengesArray.count; i++){
+        NSDictionary *challenge = [[NSDictionary alloc] initWithObjectsAndKeys:[challengesArray objectAtIndex:i], @"challenge", [lockedArray objectAtIndex:i], @"status", nil];
+        [mutableChallengesArray addObject: challenge];
+    }
+    NSLog(@"%@", mutableChallengesArray);
+        
+    [defaults setObject:mutableChallengesArray forKey:@"mutableChallengesArray"];
+    [defaults setBool:YES forKey:@"initiated"];
+    [defaults synchronize];
+     }
+    
+    else{
+        NSLog(@"Game Set Up Already");
+    }
     return YES;
 }
 							
